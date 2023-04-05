@@ -1,0 +1,91 @@
+/* ===== GERAL ============================ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(243, 17%, 22%);
+
+  font-family: 'JetBrains Mono', monospace;
+  color: #ffffff;
+  text-align: center;
+}
+
+.page {
+  width: 1100px;
+  margin: 71px auto 0;
+}
+
+span {
+  color: hsl(172, 100%, 37%);
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* ===== NAVIGATION ============================ */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+
+  display: flex;
+  gap: 64px;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: hsl(172, 100%, 37%);
+}
+
+/* ===== MAIN ============================ */
+main {
+  margin-top: 100px;
+
+  display: flex;
+  align-items: center;
+  gap: 77px;
+  text-align: center;
+}
+
+section h1 {
+  margin-bottom: 60px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #C2C2C2;
+}
+
+/* ===== FOOTER ============================ */
+hr {
+  border: 0;
+  background-color: hsl(172, 100%, 37%);
+  height: 1px;
+  width: 568px;
+  margin: 150px auto 30px;
+}
+
+/* ===== IMG FIXED ============================ */
+#fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  margin: 0 0 20px 20px;
+}
