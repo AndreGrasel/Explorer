@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="./js/main.js" defer type="module"></script>
+  </head>
+  <body>
+    <div class="alert-error">Dados Inválidos! Digite Novamente.</div>
+
+    <main>
+      <div class="card">
+        <header>
+          <h1>Cálculo de IMC</h1>
+        </header>
+
+        <form action="">
+          <div class="input-container">
+            <div class="input-wrapper">
+              <label for="weight">Peso (kg)</label>
+              <input type="text" id="weight" placeholder="60" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="height">Altura (cm)</label>
+              <input type="text" id="height" placeholder="165" />
+            </div>
+          </div>
+
+          <button>
+            Calcular IMC
+            <img src="./images/arrow.svg" alt="seta apontando para direita" />
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <div class="modal-wrapper">
+      <div class="modal card">
+        <header>
+          <h2>Seu IMC é 28</h2>
+        </header>
+
+        <button>
+          <img src="./images/close.svg" alt="ícone para feixar o popup" />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 64.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "DM Sans", sans-serif;
+
+  background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+main div {
+  background-color: #fff;
+  padding: 4.8rem 6.4rem 6.4rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+main div.hide {
+  display: none;
+}
+
+main header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  text-align: center;
+  color: #34355b;
+}
+
+main header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+main header p {
+  opacity: 0.8;
+}
+
+main .screen1 form {
+  display: flex;
+  justify-content: center;
+}
+
+main .screen1 form input {
+  width: 7rem;
+  border: none;
+  background-color: #dce2e9;
+  padding: 1.6rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+
+  color: #34355b;
+}
+
+main button {
+  border: none;
+  padding: 1.6rem;
+  background-color: #7879f1;
+  cursor: pointer;
+
+  color: #fff;
+  font-weight: 700;
+
+  transition: background 0.3s;
+}
+
+main button:hover {
+  background-color: #6262ca;
+}
+
+main .screen1 form button {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+main .screen2 button {
+  border-radius: 0.4rem;
+  width: 50%;
+}

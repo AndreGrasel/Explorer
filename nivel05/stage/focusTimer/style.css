@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-color: #121214;
+
+  --base-color: 194;
+  --bg-primmary-light: hsla(var(--base-color), 100%, 63%, 0.13);
+  --primary-color: hsla(var(--base-color), 100%, 63%, 1);
+
+  --text-color: #fff;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+
+  background-color: var(--bg-color);
+
+  display: grid;
+  height: 100vh;
+}
+
+button {
+  background: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+button svg {
+  width: clamp(3.2rem, 2rem + 12vw, 6.4rem);
+}
+
+.play svg path,
+.pause svg path,
+.sound-on svg path {
+  fill: var(--primary-color);
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  align-self: end;
+  justify-self: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .timer {
+  font-size: clamp(4rem, 4rem + 10vw, 8.8rem);
+  font-weight: 700;
+
+  display: flex;
+
+  margin-bottom: 1.6rem;
+}
+
+main .controls {
+  background-color: var(--bg-primmary-light);
+  border-radius: 9999px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+
+  width: clamp(10rem, 10rem + 30vw, 22.8rem);
+  height: clamp(8rem, 5rem + 10vw, 10.8rem);
+}
+
+footer {
+  align-self: end;
+  justify-self: end;
+
+  padding: 0rem 4rem 3.2rem 0;
+}
