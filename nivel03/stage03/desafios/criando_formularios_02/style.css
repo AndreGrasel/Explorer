@@ -1,0 +1,259 @@
+/* === GENERAL ============= */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --primary-color: hsl(201, 41%, 82%);
+  --secondary-color: hsl(218, 23%, 21%);
+  --tertiary-color: hsl(6, 89%, 69%);
+  --bg-form-color: hsla(0, 0%, 100%);
+  --border-color: hsl(240, 25%, 92%);
+  --legend-color: hsl(210, 37%, 23%);
+  --label-color: hsl(258, 9%, 32%);
+  --labelSpan-color: hsl(258, 14%, 77%);
+}
+
+body::before {
+  content: '';
+  height: 46.5rem;
+  width: 100%;
+  background-color: var(--secondary-color);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body {
+  font-size: 1.6rem;
+
+  background-color: var(--primary-color);
+}
+
+#page {
+  width: 75rem;
+  margin: auto;
+}
+
+/* === HEADER ============= */
+header {
+  text-align: center;
+  color: #ffffff;
+  margin: 10rem 0 3.2rem;
+}
+
+header h1 {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 4.5rem;
+}
+
+header p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  margin-bottom: 3.2rem;
+}
+
+/* === FORM ============= */
+form {
+  background-color: var(--bg-form-color);
+  border-radius: 2rem;
+  padding: 6.4rem;
+  margin-bottom: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  position: relative;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: var(--legend-color);
+  text-align: center;
+
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+form fieldset:nth-child(1) legend {
+  background-color: var(--tertiary-color);
+  padding-block: 5rem;
+  height: 12.7rem;
+  border-radius: 2rem 2rem 0 0;
+
+  color: white;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+}
+
+form fieldset:nth-child(1) .fieldset-wrapper {
+  margin-top: 9.3rem;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+form fieldset:nth-child(2) .fieldset-wrapper,
+form fieldset:nth-child(3) .fieldset-wrapper {
+  gap: 3.2rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.input-wrapper label {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--label-color);
+}
+
+.input-wrapper label span {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: var(--labelSpan-color);
+
+  margin-left: 0.8rem;
+}
+
+.input-wrapper input,
+.input-wrapper select,
+.input-wrapper textarea {
+  height: 5.6rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.8rem;
+  padding-inline: 2.4rem;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.2rem;
+}
+
+.input-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 10L12 14L16 10' stroke='%239C98A6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: right 3.2rem top 50%;
+}
+
+.input-wrapper textarea {
+  height: 16.4rem;
+  padding: 0.8rem;
+}
+
+.checkbox-wrapper {
+  position: relative;
+}
+
+.checkbox-wrapper input {
+  width: 2.4rem;
+  height: 2.4rem;
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkbox-wrapper label::before {
+  content: '';
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 2px solid var(--border-color);
+  border-radius: 0.8rem;
+  display: block;
+}
+
+.checkbox-wrapper input:focus + label::before {
+  outline: 2px solid black;
+}
+
+.checkbox-wrapper input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='14' viewBox='0 0 18 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 11.17L1.83 7L0.410004 8.41L6 14L18 2L16.59 0.589996L6 11.17Z' fill='%2342D3FF'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: top 50% right 50%;
+}
+
+.checkbox-wrapper label {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--label-color);
+}
+
+.col-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-3 .input-wrapper:nth-child(1) {
+  width: 30rem;
+  margin-right: 3.2rem;
+}
+
+.col-3 .input-wrapper:nth-child(2) {
+  margin-right: 1rem;
+}
+
+input:invalid, 
+textarea:invalid {
+  border-color: red;
+}
+
+button {
+  margin-top: 3.2rem;
+  border: none;
+  border-radius: 0.8rem;
+  padding-block: 1.2rem;
+  background-color: var(--tertiary-color);
+
+  color: #ffffff;
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.6rem;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(6, 79%, 67%);
+}

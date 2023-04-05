@@ -1,0 +1,111 @@
+/* === GERAL ============= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ece9fd;
+  padding: 6rem 2.3rem;
+  
+  font-size: 1.6rem;
+  font-family: 'Epilogue', sans-serif;
+}
+
+/* === MAIN ============= */
+
+main {
+  max-width: 33rem;
+  margin: auto;
+}
+
+main p:first-child {
+  color: #7158ef;
+  line-height: 3.2rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+
+  margin-bottom: 1.7rem;
+}
+
+main h1 {
+  color: #090039;
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 4.8rem;
+
+  margin-bottom: 1.5rem;
+}
+
+main h1 + p {
+  color: hsla(251, 100%, 11%, 0.639);
+  line-height: 3.2rem;
+
+  margin-bottom: 3.2rem;
+}
+
+a {
+  color: #090039;
+  line-height: 3.2rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7158ef;
+}
+
+ul {
+  list-style: none;
+  margin-top: 7.2rem;
+}
+
+ul li {
+  color: #090039;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+
+  max-width: 33rem;
+  margin-bottom: 3.2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 3.8rem;
+}
+
+ul li span {
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 8rem;
+}
+
+/* === RESPONSIVIDADE ========== */
+
+@media (min-width: 768px) {
+  /* GERAL */
+  body {
+    padding-block: 9.5rem;
+  }
+
+  /* MAIN */ 
+  main {
+    max-width: 1020px;
+    display: flex;
+    gap: 11.5rem;
+  }
+
+  main > div {
+    max-width: 48.5rem;
+  }
+
+  ul li {
+    gap: 5.4rem;
+    max-width: 42rem;
+  }
+}
