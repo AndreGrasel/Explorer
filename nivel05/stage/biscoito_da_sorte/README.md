@@ -1,6 +1,5 @@
 <h1 align="center">🥠 Biscoito da Sorte</h1>
 
-<img src="./demonstracao.gif">
 
 <div align="center">
     <a style="font-size: 18px" href="https://andregrasel.github.io/Explorer/nivel05/stage/biscoito_da_sorte" target="_blank"> Veja o Site</a>
