@@ -6,7 +6,7 @@
 </p>
 
 
-<p>Nesse land, foram abordados algumas <strong>técnicas de estudos</strong> bem interessantes:</p>
+<p>Também foram abordados algumas <strong>técnicas de estudos</strong> bem interessantes:</p>
 <ul>
   <li><strong>🍅 Técnica Pomodoro</strong></li>
   <li><strong>🎶 Técnica Lozanov</strong></li>
