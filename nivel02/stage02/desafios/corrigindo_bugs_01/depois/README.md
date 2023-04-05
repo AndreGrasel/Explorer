@@ -1,1 +1,0 @@
-<Img src="./demonstracao_depois.png">
