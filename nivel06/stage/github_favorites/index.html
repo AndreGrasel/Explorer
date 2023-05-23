@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Favorites</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <script src="./js/main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div id="App">
+      <header>
+        <img src="./images/logo.svg" alt="Logo GitFav" />
+
+        <form>
+          <label for="searchUser" class="sr-only"
+            >Digite o Github username que quer favoritar</label
+          >
+          <input type="text" id="searchUser" placeholder="Usuário do Github" />
+
+          <button>
+            <img src="./images/starForButton.svg" alt="Imagem de uma estrela" />
+            Favoritar
+          </button>
+        </form>
+      </header>
+
+      <div class="wrapper">
+        <table class="">
+          <thead>
+            <th>Usuário</th>
+            <th>Repositórios</th>
+            <th>Seguidores</th>
+            <th></th>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="empity hide">
+          <img
+            src="./images/starForEmptyTable.svg"
+            alt="Imagem de uma estrela com uma carinha de surpresa"
+          />
+          <span>Nenhum favorito ainda</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
