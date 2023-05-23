@@ -3,7 +3,7 @@
 <img src="./demonstracao.gif">
 
 <div align="center">
-    <a style="font-size: 18px" href="https://andre-grasel.github.io/Explorer/nivel06/stage/github_favorites" target="_blank"> Veja o Site</a>
+    <a style="font-size: 18px" href="https://andregrasel.github.io/Explorer/nivel06/stage/github_favorites" target="_blank"> Veja o Site</a>
 </div>
 
 <br>
