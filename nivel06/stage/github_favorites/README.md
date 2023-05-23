@@ -1,5 +1,6 @@
 <h1 align="center">⭐ GitHub Favorites</h1>
 
+<img src="./demonstracao.png">
 
 <div align="center">
     <a style="font-size: 18px" href="https://andregrasel.github.io/Explorer/nivel06/stage/github_favorites" target="_blank"> Veja o Site</a>
