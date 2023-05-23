@@ -68,3 +68,72 @@ O explorer é um programa da Rocketseat focado no **Desenvolvimento Web Full Sta
 
 <br>
 
+## 📌 Nível 06
+
+- ✅ [Land - Marca pessoal no LinkedIn](./nivel06/land/)
+
+> Criação de Linkedin - Perfil Campeão - Busca por vagas - Dicas
+
+- ✅ [Stage - JavaScript antes do framework](./nivel06/stage/)
+
+> POO (Programação Orientada a Objetos) - Conceitos de SPA - Assincronismo - Promisses - Polimorfismo - Imutabilidade - Consumo de APIs externas
+
+<br>
+
+## 📌 Nível 07
+
+-  [Land - Encontrando soluções](./nivel07/land/)
+
+> Fórum - Como pesquisar? - Como identificar erros? - Fontes de pesquisa
+
+-  [Stage - Git & GitHub](./nivel07/stage/)
+
+> Controle de versão - Fundamentos do Git & GitHub
+
+<br>
+
+## 📌 Nível 08
+
+-  [Land - Inglês](./nivel08/land/)
+
+> Perfil LinkedIn em inglês - README em inglês - Código em inglês
+
+-  [Stage - Back-end](./nivel08/stage/)
+
+> Fundamentos do back-end - Node.js - NPM (Gerenciador de pacotes) - Insomnia - Knex.js - Express - Banco de dados (SQL, SQLite)
+
+<br>
+
+## 📌 Nível 09
+
+-  [Land - Projetos pessoais](./nivel09/land/)
+
+> Inspiração de ideias - Resolução de problemas - MVP - Design Thinking
+
+-  [Stage - Front-end](./nivel09/stage/)
+
+> Bibliotecas e frameworks - React - Transpilers & Bundlers - Vite - CSS in JS (Styled Components) - React Router
+
+<br>
+
+## 📌 Nível 10
+
+-  [Land - Emprego](./nivel10/land/)
+
+> Júnior, Pleno e Sênior - Aplicando para a primeira vaga - Como se portar em entrevistas - Encontrando oportunidades - Hack de entrevistas
+
+-  [Stage 10](./nivel10/stage/) - API RESTful
+
+> Integração front-end e back-end - Consumo de API - Autenticação - Validações - Middlewares - Upload de imagens
+
+<br>
+
+## 📌 Nível 11
+
+- Stage - Deploy e Testes automatizados
+
+> PM2 - Heroku - Netlify - Jest
+
+<br>
+<br>
+
