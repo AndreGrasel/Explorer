@@ -1,6 +1,6 @@
 <h1 align="center">🌌 Universe SPA</h1>
 
-<img src="./demonstracao.gif">
+<img src="./demonstracao.png">
 
 <div align="center">
     <a style="font-size: 18px" href="https://universe-spa-xi.vercel.app/" target="_blank"> Veja o Site</a>
