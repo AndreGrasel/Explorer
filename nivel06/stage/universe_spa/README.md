@@ -32,7 +32,6 @@ Nela você pode navegar livremente entre as páginas sem o delay de recarregamen
 <br>
 <br>
 
-<p align="center"> Desenvolvido com ❤ por Elias de Araújo Ferreira Neto 👋 <p>
 
 <br>
 
