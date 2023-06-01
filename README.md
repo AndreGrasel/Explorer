@@ -82,11 +82,11 @@ O explorer é um programa da Rocketseat focado no **Desenvolvimento Web Full Sta
 
 ## 📌 Nível 07
 
--  [Land - Encontrando soluções](./nivel07/land/)
+- ✅ [Land - Encontrando soluções](./nivel07/land/)
 
 > Fórum - Como pesquisar? - Como identificar erros? - Fontes de pesquisa
 
--  [Stage - Git & GitHub](./nivel07/stage/)
+- ✅ [Stage - Git & GitHub](./nivel07/stage/)
 
 > Controle de versão - Fundamentos do Git & GitHub
 
@@ -94,7 +94,7 @@ O explorer é um programa da Rocketseat focado no **Desenvolvimento Web Full Sta
 
 ## 📌 Nível 08
 
--  [Land - Inglês](./nivel08/land/)
+- ✅ [Land - Inglês](./nivel08/land/)
 
 > Perfil LinkedIn em inglês - README em inglês - Código em inglês
 
